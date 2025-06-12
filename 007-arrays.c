@@ -20,6 +20,16 @@ int main() {
 
     // Replace value by index
     d[2] = 0.1;
-    printf("%f", d[2]);
+    printf("%f\n", d[2]);
+
+
+
+    // Loop array
+    int array_length = sizeof(b) / sizeof(int);
+    for(int i=0; i<array_length; i++) {
+        printf("%i\n", b[i]);
+    }
+
+
 
 }
