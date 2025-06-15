@@ -33,4 +33,9 @@ int main() {
     strcat(new_string_a, new_string_b);
     printf("%s\n", new_string_a);
 
+    // - strcpy(dst, src): copy one string into another
+    char messageC[] = "Bitcoin";
+    char messageD[strlen(messageC) + 1];
+    strcpy(messageD, messageC);
+    printf("%s\n", messageD);
 }
